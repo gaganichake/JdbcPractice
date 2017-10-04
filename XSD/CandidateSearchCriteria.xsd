@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:annotation>
+		<xsd:documentation xml:lang="en">
+			Add your comment here
+			Status - Success,Warning, Error. Description will be required in case of
+			warning or error.
+  </xsd:documentation>
+	</xsd:annotation>
+	<xsd:element name="CandidateSearchCriteria">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="techSkill" type="xsd:string"
+					minOccurs="1" maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:attribute name="city" type="xsd:string"></xsd:attribute>
+			<xsd:attribute name="minExp" type="xsd:integer"></xsd:attribute>
+			<xsd:attribute name="maxExp" type="xsd:integer"></xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
+
+
+

@@ -1,0 +1,11 @@
+/bin/gagan/practice/batchjob/HelloWorld.class
+/bin/gagan/practice/blob/HelloWorld.class
+/bin/gagan/practice/dao/jdbc/BatchJob$BatchEntry.class
+/bin/gagan/practice/dao/jdbc/BatchJob.class
+/bin/gagan/practice/dao/jdbc/JdbcTemplate.class
+/bin/gagan/practice/jaxb/beans/generated/CandidateSearchCriteria.class
+/bin/gagan/practice/jaxb/beans/generated/ObjectFactory.class
+/bin/gagan/practice/util/BlobConverter.class
+/bin/gagan/practice/util/JaxbUtil.class
+/bin/gagan/practice/util/ReadWriteFile.class
+/.settings
