@@ -9,3 +9,5 @@
 /bin/gagan/practice/util/JaxbUtil.class
 /bin/gagan/practice/util/ReadWriteFile.class
 /.settings
+/bin/
+/target/
