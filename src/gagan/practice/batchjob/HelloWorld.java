@@ -16,7 +16,7 @@ public class HelloWorld {
 
 		BatchJob batchJob = new BatchJob(2);
 
-		ReadWriteFile.readTabSaperatedFile("C:\\Users\\Gagan\\Workspace\\JavaPractice\\JdbcBatchJobPractice\\data\\EmployeeList.txt", batchJob);
+		ReadWriteFile.readTabSaperatedFile("data\\EmployeeList.txt", batchJob);
 		
 		batchJob.getTargetSqlType()[0] = Types.INTEGER;
 		batchJob.getTargetSqlType()[1] = Types.CHAR;
